@@ -26,7 +26,7 @@ function transformStateWithClones(state, actions) {
         break;
 
       default:
-        return 'Unknown action';
+        break;
     }
 
     log(stateCopy, logs);
